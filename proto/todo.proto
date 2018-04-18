@@ -23,7 +23,7 @@ message GetTodoResponse {
     Todo todo = 1;
 }
 
-service Todo {
+service TodoService {
     rpc CreateTodo(CreateTodoRequest) returns (CreateTodoResponse) {}
     rpc GetTodo(GetTodoRequest) returns (GetTodoResponse) {}
 }
