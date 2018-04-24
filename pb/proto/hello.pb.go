@@ -6,9 +6,15 @@ Package proto is a generated protocol buffer package.
 
 It is generated from these files:
 	proto/hello.proto
+	proto/todo.proto
 
 It has these top-level messages:
 	PingMessage
+	Todo
+	CreateTodoRequest
+	CreateTodoResponse
+	GetTodoRequest
+	GetTodoResponse
 */
 package proto
 
